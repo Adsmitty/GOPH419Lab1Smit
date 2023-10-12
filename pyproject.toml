@@ -7,15 +7,15 @@ name = "Lab1"
 version = "0.0.1"
 author = [
     { name = "Adrian Smit", email = "adrian.smit@ucalgary.ca"},
-]
-description = "GOPH 419 Lab 1"
-readme = "README.md"
-requires-python = ">=3.8"
-dependencies + ["numpy", "matplotlib"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-]
+    ]
+    description = "GOPH 419 Lab 1"
+    readme = "README.md"
+    requires-python = ">=3.8"
+    dependencies = ["numpy", "matplotlib"]
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+    ]
 
-[project.urls]
-"Homepage" = "https://github.com/Adsmitty/GOPH419Lab1Smit"
+    [project.urls]
+    "Homepage" = "https://github.com/Adsmitty/GOPH419Lab1Smit"
